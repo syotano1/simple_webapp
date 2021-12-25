@@ -1,0 +1,16 @@
+{
+    "folders": [
+        {
+            "name": "gui",
+            "path": "gui"
+        },
+        {
+            "name": "api_server",
+            "path": "api_server"
+        },
+        {
+            "name": "repository",
+            "path": "repository"
+        }
+    ]
+}
