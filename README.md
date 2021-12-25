@@ -8,3 +8,9 @@
 
 
 最終的にはdockercontainerでいい感じにしたい
+
+---
+
+# angular
+## angularのインストール
+1. `npm install -g @angular/cli`
