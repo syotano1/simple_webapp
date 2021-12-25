@@ -17,3 +17,6 @@
 
 ## angularのプロジェクトの作成
 1. `ng new <project_name>`
+
+## angular mateialのインストール
+1. プロジェクトのフォルダで`ng add @angular/mateial`
