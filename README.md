@@ -14,3 +14,6 @@
 # angular
 ## angularのインストール
 1. `npm install -g @angular/cli`
+
+## angularのプロジェクトの作成
+1. `ng new <project_name>`
