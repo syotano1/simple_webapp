@@ -1,6 +1,6 @@
 {
-    "folders": [
-        {
+	"folders": [
+		{
             "name": "gui",
             "path": "gui"
         },
@@ -12,5 +12,6 @@
             "name": "repository",
             "path": "repository"
         }
-    ]
+    ],
+	"settings": {}
 }
