@@ -8,6 +8,10 @@ import (
 
 func Greet() echo.HandlerFunc{
 	return func(c echo.Context) error {
-        return c.JSON(http.StatusOK, "Hello.World!!")
+		name := c.QueryParam("name")
+		if (name == ""){
+			return c.JSON(http.StatusOK, "name is empty")
+		}
+        return c.JSON(http.StatusOK, "Mr." + name + " Hello.World!!")
     }
 }
