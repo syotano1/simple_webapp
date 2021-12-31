@@ -8,7 +8,7 @@ import (
 )
 
 func main() {
-	//echoの生成
+	//echoインスタンスの生成
 	e := echo.New()
 
 	//CORSを用いる
@@ -17,6 +17,6 @@ func main() {
 	//URIの記述
 	e.GET("/hello", get_methods.Greet())
 
-	//不明
+	//サーバをポート番号1323で起動
 	e.Logger.Fatal(e.Start(":1323"))
 }

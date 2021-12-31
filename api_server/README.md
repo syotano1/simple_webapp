@@ -4,17 +4,25 @@ SPA を構成するために、フロントエンド側（Angular）から、ech
 
 server.run に以下のコマンドを追加
 
-`e.Use(middleware.CORS())`
+```
+e.Use(middleware.CORS())
+```
 
 して、terminal 上で
 
-`go get -u github.com/labstack/echo/v4/middleware`
+```
+go get -u github.com/labstack/echo/v4/middleware
+```
 
 を叩く（順番は適当なので空気読んで）
 
 # echo の注意点
 
-- src の更新を反映させるには`go run <src名>`をもう一度叩く必要がある
+- src の更新を反映させるには
+  ```
+  `go run <src名>`
+  ```
+  をもう一度叩く必要がある
 
 # 自作 package の導入
 
